@@ -58,7 +58,7 @@
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
           "properties": {
-            "time_format": "3:04 PM"
+            "time_format": "15:04:05"
           },
           "style": "powerline",
           "template": " \uf017 {{ .CurrentDate | date .Format }} ",
