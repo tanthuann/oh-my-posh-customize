@@ -8,15 +8,17 @@
     "blush": "#DA627D",
     "salmon": "#FCA17D",
     "sky": "#86BBD8",
-    "teal_blue": "#33658A"
+    "teal_blue": "#33658A",
+    "blue": "#316ce4",
+    "purple": "#6272a4"
   },
   "blocks": [
     {
       "alignment": "left",
       "segments": [
         {
-          "background": "#6272a4",
-          "foreground": "#f8f8f2",
+          "background": "p:red",
+          "foreground": "p:white",
           "leading_diamond": "\ue0b6",
           "style": "diamond",
           "template": "{{ .UserName }} ",
@@ -31,42 +33,41 @@
           "type": "node"
         },
         {
-          "background": "#DA627D",
-          "foreground": "#ffffff",
+          "background": "p:blue",
+          "foreground": "p:white",
           "powerline_symbol": "\ue0b0",
           "properties": {
-            "folder_separator_icon": "/",
             "style": "folder"
           },
           "style": "powerline",
-          "template": " <#000>\uf07b</> {{ .Path }} ",
+          "template": " <p:white>\uf07b</> {{ .Path }} ",
           "type": "path"
         },
         {
-          "background": "#83769c",
-          "foreground": "#ffffff",
+          "background": "p:teal",
+          "foreground": "p:white",
+          "powerline_symbol": "\ue0b0",
+          "properties": {
+            "time_format": "15:05"
+          },
+          "style": "powerline",
+          "template": " \uf017 {{ .CurrentDate | date .Format }}",
+          "type": "time"
+        },
+        {
+          "background": "p:teal",
+          "foreground": "p:white",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "always_enabled": true
           },
           "style": "powerline",
-          "template": " \ueba2 {{ .FormattedMs }} ",
+          "template": "<p:white>\ueba2 {{ .FormattedMs }} </>",
           "type": "executiontime"
         },
         {
-          "background": "#33658A",
-          "foreground": "#ffffff",
-          "powerline_symbol": "\ue0b0",
-          "properties": {
-            "time_format": "15:04:05"
-          },
-          "style": "powerline",
-          "template": " \uf017 {{ .CurrentDate | date .Format }} ",
-          "type": "time"
-        },
-        {
-          "background": "#c386f1",
-          "foreground": "#ffffff",
+          "background": "p:purple",
+          "foreground": "p:white",
           "powerline_symbol": "\ue0b0",
           "properties": {
             "branch_icon": "",
@@ -94,7 +95,7 @@
         {
           "foreground": "#CD4277",
           "style": "plain",
-          "template": " <p:red><b>~</b></>",
+          "template": " <b>~</b>",
           "type": "text"
         }
       ],
