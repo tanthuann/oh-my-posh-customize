@@ -35,13 +35,11 @@
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
           "properties": {
-            "folder_icon": "\uf115",
-            "folder_separator_icon": "\\",
-            "home_icon": "\ueb06",
-            "style": "full"
+            "folder_separator_icon": "/",
+            "style": "folder"
           },
           "style": "powerline",
-          "template": " <#000>\uf07b \uea9c</> {{ .Path }} ",
+          "template": " <#000>\uf07b</> {{ .Path }} ",
           "type": "path"
         },
         {
@@ -67,7 +65,7 @@
           "type": "time"
         },
         {
-          "background": "#FCA17D",
+          "background": "#c386f1",
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
           "properties": {
