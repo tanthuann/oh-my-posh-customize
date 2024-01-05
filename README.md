@@ -1,5 +1,5 @@
 # Install
-
+- Download font: **RobotoMono** [Oh My Posh | Fonts](https://ohmyposh.dev/docs/installation/fonts)
 - Follow this [Oh My Posh | Customize](https://ohmyposh.dev/docs/installation/customize) and install with this script:
 
   ```
