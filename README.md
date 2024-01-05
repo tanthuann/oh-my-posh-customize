@@ -5,5 +5,6 @@
   ```
     oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/tanthuann/oh-my-posh-customize/develop/.mytheme.omp.json' | Invoke-Expression
   ```
+- Change $profile file with above code.
 
 ![Screenshot](mytheme.png)
